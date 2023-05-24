@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0px; /* 기본값 초기화 */
+}
+
+
+
+.background {
+  width: 1024px;
+  height: 600px;
+  background-color: bisque;
+  background-image: url('../images/outerbox.png');
+  padding: 20px 0px 0px 20px;
+}
+
+.outerbox {
+  width: 808px;
+  height: 544px;
+  background-image: url('../images/background.png');
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 0px 0px 32px;
+}
+
+.wrapper__left {
+  width: 208px;
+  height: 472px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__left__header {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.today {
+  font-size: 9px;
+}
+
+.wrapper__left__body {
+  width: 100%;
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.left__body__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left__body__header__gray {
+  width: 148px;
+  height: 133px;
+  background-color: gray;
+}
+
+.left__body__header__line {
+  border-top: 1px dotted black;
+  margin: 12px 0px;
+}
+
+.left__body__profile {
+  margin-left: -54px;
+}
+
+.profile_wrapper {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.font_img {
+  color: #000000;
+}
+
+.profile_title {
+  padding-left: 9px;
+  color: #999999;
+}
+
+.left__body__footer {
+  width: 100%;
+  height: 80px;
+  margin-top: 119px;
+}
+
+.footer_feeling {
+  margin-bottom: 8px;
+}
+
+.input_wrapper {
+  display: flex;
+}
+
+.input {
+  border-radius: 0px;
+  border: 1px solid #eeeeee;
+  width: 122px;
+  height: 18px;
+}
+
+.polygon {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #eeeeee;
+  border-left: none;
+}
+.wrapper__right {
+  width: 524px;
+  height: 472px;
+  background-color: violet;
+}

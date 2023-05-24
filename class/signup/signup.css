@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+.signup_container {
+  background: #ffffff;
+  border: 1px solid #aacdff;
+  box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+  width: 670px;
+  height: 960px;
+  margin: 0 auto;
+}
+
+.contetn_wrapper {
+  margin: 72px 100px;
+}
+.wrapper {
+  width: 670px;
+  height: 960px;
+  border: 1px solid #aacdff;
+  box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 72px;
+  margin-left: 100px;
+}
+
+h2 {
+  color: #0068ff;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+}
+
+.pw {
+  border: 1px solid blue;
+}
+.id {
+  border: 1px solid blue;
+}
+
+.chckbox {
+  margin-bottom: 30px;
+}
+
+.chckbox input {
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  color: #0068ff;
+}
+
+.radio {
+  background-color: red;
+}
+
+.final_check {
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  color: #0068ff;
+  margin-bottom: 30px;
+}
+
+hr {
+  border: none; /* Remove the default border */
+  height: 1px; /* Set the height of the line */
+  background-color: #e6e6e6; /* Set the color of the line */
+  margin: 20px 0; /* Set the margin around the line */
+}
+
+.for_signup {
+  font-weight: 400;
+  font-size: 18px;
+  color: #0068ff;
+  width: 470px;
+  height: 75px;
+  margin: 30px 0px;
+  border: 1px solid #0068ff;
+  border-radius: 10px;
+  background: #ffffff;
+}
