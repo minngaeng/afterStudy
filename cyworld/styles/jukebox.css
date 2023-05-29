@@ -19,7 +19,8 @@ body {
   align-items: center;
 }
 
-.wrapper__header {
+.wrapper__header,
+.wrapper__body {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -45,4 +46,34 @@ body {
 .divideLine {
   width: 100%;
   border-top: 1px solid gray;
+}
+
+.albumWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.albumTable {
+  width: 100%;
+  padding-top: 8px;
+  border-spacing: 0px; /* 이건 몰랏네 */
+}
+
+.albumTable th {
+  height: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+  background-color: #eeeeee;
+  padding-top: 5px;
+  border-top: 1px solid gray;
+  border-bottom: 1px dashed gray;
 }
