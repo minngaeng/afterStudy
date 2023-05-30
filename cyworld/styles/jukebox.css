@@ -77,3 +77,30 @@ body {
   border-top: 1px solid gray;
   border-bottom: 1px dashed gray;
 }
+
+.albumTable td {
+  height: 20px;
+  font-size: 10px;
+  color: #0f465e;
+  border-bottom: 1px dashed gray;
+}
+
+.album-table-chkbox {
+  width: 5%;
+  text-align: center;
+}
+
+.album-table-number {
+  width: 10%;
+  text-align: center;
+}
+
+.album-table-song {
+  width: 45%;
+  text-align: left;
+}
+
+.albumTable__artist {
+  width: 30%;
+  text-align: center;
+}
