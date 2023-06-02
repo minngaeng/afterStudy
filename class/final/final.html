@@ -3,7 +3,7 @@
   <head>
     <title>Final Signup</title>
     <link href="./final.css" rel="stylesheet" />
-    <script src="./final.js"></script>
+    <script src="final.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,7 +18,12 @@
 
           <input class="input" placeholder="비밀번호를 다시 입력해 주세요." />
           <div class="phone-input-wrapper">
-            <input class="phone-input" id="phone1" oninput="ph1()" />
+            <input
+              class="phone-input"
+              id="phone1"
+              onchange="ph1()"
+              maxlength="3"
+            />
             -
             <input class="phone-input" id="phone2" onchange="ph2()" />
             -
